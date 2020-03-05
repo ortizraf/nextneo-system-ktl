@@ -5,7 +5,13 @@ class ResourcePath {
     object Index {
 
         const val INDEX = "/index"
-        const val TEST = "/test"
+
+    }
+
+    object User {
+
+        const val USER = "/user"
+        const val FIND_BY_ID = "/findById/{id}"
 
     }
 }
